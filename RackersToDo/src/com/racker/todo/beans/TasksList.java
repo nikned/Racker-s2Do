@@ -15,6 +15,16 @@ public class TasksList {
 	private String id;
 	private String name;
 	private List<Task> tasksList;
+
+    public String getTemp() {
+        return temp;
+    }
+
+    public void setTemp(String temp) {
+        this.temp = temp;
+    }
+
+    private String temp;
 	
 	public TasksList() {}
 	
